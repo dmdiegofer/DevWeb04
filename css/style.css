@@ -1,0 +1,12 @@
+root {
+        --font: "Edu VIC WA NT Beginner", cursive;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+    }
+    
+
+
+h1{
+    font-family: var(--font);
+}
