@@ -43,3 +43,13 @@ h4 {
 img {
     max-width: 100%;
 }
+/* UTILITIES */ 
+.no_margin {
+    margin: 0;
+}
+.no_padding {
+    padding: 0;
+}
+.text_center {
+    text-align: center;
+}
