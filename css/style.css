@@ -1,11 +1,11 @@
 root {
-    --coffe: rgba(89,62,32,1);
-    --orange: rgba(188,99,39,1);
-    --yellow: rgba(216,155,72,1);
-    --beige: rgba(222,201,134,1);
-    --green: rgba(79,153,116,1);
-
-
+/* PALETTE */
+    --coffe: rgb(89, 62, 32, 1);
+    --orange: rgba(188, 99, 39, 1);
+    --yellow: rgba(216, 155, 72, 1);
+    --beige: rgba(222, 201, 134, 1);
+    --green: rgba(79, 153, 116, 1);
+/* FONT */
     --fontHeading: "PT Sans", sans-serif;
     --fontParagraph: "Open Sans", sans-serif;
 }
@@ -65,4 +65,9 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right center; /* center image horizontal and vertical*/
+}
+.header__text {
+    text-align: center;
+    color: var(--beige);
+    margin-top: 5rem;
 }
