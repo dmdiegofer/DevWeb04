@@ -97,11 +97,13 @@ img {
 }
 @media (min-width: 768px) {
     .navbar__linkbar {
-        background-color: rgba(89, 62, 32, .5);
         display: flex;
         gap: 2rem;
-        padding: 1rem 6rem;
     }
+}
+.navbar__linkbar {
+    background-color: rgba(89, 62, 32, .5);
+    padding: 1rem 6rem;
 }
 .navbar__link {
     display: block;
