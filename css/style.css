@@ -34,16 +34,16 @@ h1, h2, h3, h4 {
     font-family: var(--fontHeading);
 }
 h1 {
-    font-weight: 4.8;
+    font-weight: 4.8rem;
 }
 h2 {
-    font-weight: 4;
+    font-weight: 4rem;
 }
 h3 {
-    font-weight: 3.2;
+    font-weight: 3.2rem;
 }
 h4 {
-    font-weight: 2.8;
+    font-weight: 2.8rem;
 }
 img {
     max-width: 100%;
@@ -114,9 +114,36 @@ img {
 @media (min-width: 768px) {
     .main_content {
         display: grid;
-        grid-template-columns: repeat(2fr 1fr);
+        grid-template-columns: 2fr 1fr;
         column-gap: 4rem;
     }
 }
-
-
+.input {
+    border-bottom: 3px solid var(--orange);
+    margin-bottom: 3rem;
+}
+.input:last-of-type { /* TO DELETE THE BORDER THAT SEPARATE THE ENTRYS OF THE BLOG IN THE LAST INPUT */
+    border: none;
+    margin-bottom: 0;
+}
+.input__content {
+    text-align: justify;
+}
+.button {
+    display: block;
+    font-family: var(--fontHeading);
+    color: var(--yellow);
+    text-align: center;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+    .button {
+        display: inline-block;
+    }
+}
+.button__primary {
+    background-color: var(--coffe);
+}
