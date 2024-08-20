@@ -129,14 +129,13 @@ img {
 .input__content {
     text-align: justify;
 }
+/* BUTTON CLASSES */
 .button {
     display: block;
     font-family: var(--fontHeading);
-    color: var(--yellow);
     text-align: center;
-    padding: 1rem 3rem;
     text-transform: uppercase;
-    font-weight: 700;
+    padding: 0.5rem 2rem;
     margin-bottom: 2rem;
 }
 @media (min-width: 768px) {
@@ -145,5 +144,24 @@ img {
     }
 }
 .button__primary {
+    color: var(--yellow);
     background-color: var(--coffe);
 }
+.button__primary:hover {
+    font-weight: 700;
+    background-color: var(--yellow);
+    color: var(--coffe);
+}
+.button__secondary {
+    border: 1px solid var(--green);
+    border-radius: 3%;
+    color: var(--green);
+    font-weight: 700;
+}
+.button__secondary:hover {
+    border: none;
+    font-weight: 700;
+    background-color: var(--green);
+    color: var(--beige);
+}
+
