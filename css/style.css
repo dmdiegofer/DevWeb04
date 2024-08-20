@@ -102,7 +102,6 @@ img {
     }
 }
 .navbar__linkbar {
-    background-color: rgba(89, 62, 32, .5);
     padding: 1rem 6rem;
 }
 .navbar__link {
@@ -111,4 +110,13 @@ img {
     color: var(--beige);
     font-size: 1.8rem;
 }
+/* MAIN CONTENT */
+@media (min-width: 768px) {
+    .main_content {
+        display: grid;
+        grid-template-columns: repeat(2fr 1fr);
+        column-gap: 4rem;
+    }
+}
+
 
