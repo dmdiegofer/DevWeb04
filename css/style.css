@@ -118,6 +118,12 @@ img {
         column-gap: 4rem;
     }
 }
+.blog h3 {
+    padding: 1rem 2rem;
+    background-color: var(--coffe);
+    color: var(--yellow);
+    width: 500;
+}
 .input {
     border-bottom: 3px solid var(--orange);
     margin-bottom: 3rem;
@@ -164,4 +170,34 @@ img {
     background-color: var(--green);
     color: var(--beige);
 }
+/* SIDEBAR */
+.sidebar h3 {
+    padding: 1rem 2rem;
+    background-color: var(--green);
+    color: var(--beige);
+    width: 500;
+}
+.courses {
+    list-style: none; /* |DEL| DOT LIST (VIGNETTE) */
+}
+.courses h4 {
+    padding: 1rem 2rem;
+    background-color: rgba(222, 201, 134, .4);
+}
+.widget-course {
+    border-bottom: 3px solid var(--beige);
+    margin-bottom: 3rem;
+}
+.widget-course:last-of-type {
+    border: none;
+    margin-bottom: 0;
+}
+.widget-course__label {
+    font-family: var(--fontHeading);
+    font-weight: bold;
+}
+.widget-course__info{
+    font-weight: normal;
+}
+
 
