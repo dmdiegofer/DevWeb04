@@ -23,8 +23,9 @@ body{
 }
 /* GLOBALS */
 .container {
-    max-width: 120rem;
-    width: 90%;
+/*  max-width: 120rem; IF THE SPACE IS ENOUGH, 120rem IS APPLIED */
+/*  width: 90%;  IF THE SPACE IS NOT ENOUGH TO USE 120rem, TAKE ONLY THE 90% OF THE SCREEN */
+    width: min(90%, 120rem); /* SAME 2 LAST LINES IN ONE */
     margin: 0 auto;
 }
 a {
@@ -32,6 +33,7 @@ a {
 }
 h1, h2, h3, h4 {
     font-family: var(--fontHeading);
+    line-heigt: 1.2;
 }
 h1 {
     font-size: 4.8rem;
@@ -77,6 +79,9 @@ img {
     .header__text {
         margin-top: 15rem;
     }
+}
+.navbar {
+    padding-top: 4rem;
 }
 @media (min-width: 768px) {
     .navbar {
@@ -201,5 +206,11 @@ img {
 .widget-course__info {
     font-size: 2rem;
 }
-
+/* FOOTER */
+.footer {
+    background-color: var(--coffe);
+    color: var(--beige);
+    padding: 0rem 3rem 3rem 4rem; 
+    margin-top: 4rem;
+}
 
