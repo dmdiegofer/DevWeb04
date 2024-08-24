@@ -213,4 +213,27 @@ img {
     padding: 0rem 3rem 3rem 4rem; 
     margin-top: 4rem;
 }
+/* ABOUT US */
+@media (min-width: 768px) {
+/*     .about-us {
+        display:flex;
+        gap: 3rem; 
+    }
+    .about-us__text {
+        flex: 2;  //growth factor: for every pixel for image, text will have 2px // 
+    }
+    .about-us__image {
+        padding-top: 2rem;
+        flex: 1;
+    } 
+*/    
+    .about-us {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 3rem;
+    }
+    .about-us__image {
+        padding-top: 2rem;
+    }
+}
 
