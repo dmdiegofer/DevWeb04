@@ -167,6 +167,7 @@ img {
     border-radius: 3%;
     color: var(--green);
     font-weight: 700;
+    margin-left: 2rem;
 }
 .button__secondary:hover {
     border: none;
@@ -185,9 +186,10 @@ img {
 }
 .courses h4 {
     padding: 1rem 2rem;
-    background-color: rgba(222, 201, 134, .4);
+    background-color: rgba(216, 155, 72, .3);;
 }
 .widget-course {
+    background-color: rgba(222, 201, 134, .1);
     border-bottom: 3px solid var(--yellow);
     margin-bottom: 3rem;
 }
@@ -198,6 +200,7 @@ img {
 .widget-course__label {
     font-family: var(--fontHeading);
     font-weight: bold;
+    padding-left: 2rem;
 }
 .widget-course__info{
     font-weight: normal;
