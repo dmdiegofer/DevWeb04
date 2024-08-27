@@ -34,20 +34,34 @@
         <h3 class="text_center">Contact Us</h3>
         <div class="contact-us__bg"></div>
         <form class="form">
-            <div class="form__field">
-                <label for="name">Name</label>
-                <input type="text" placeholder="Name" id="name">
+            <div class="field">
+                <label class="field__label" for="name">Name</label>
+                <input  
+                    class="field__input
+                    type="text"
+                    placeholder="Name" 
+                    id="name"
+                >
             </div>
-            <div class="form__field">
-                <label for="email">E-mail</label>
-                <input type="email" placeholder="E-Mail Adress" id="email">
+            <div class="field">
+                <label class="field__label" for="email">E-mail</label>
+                <input  
+                    class="field__input
+                    type="email" 
+                    placeholder="E-Mail Adress" 
+                    id="email"
+                >
             </div>
-            <div class="form__field">
-                <label for="request">Request</label>
-                <textarea name="" placeholder="Describe your request" id="request"></textarea>
+            <div class="field">
+                <label class="field__label" for="request">Request</label>
+                <textarea 
+                    class="field__input field__input--textarea"
+                    placeholder="Describe your request" 
+                    id="request"
+                ></textarea>
             </div>
-            <div class="form__field">
-                <input class="button button__secondary" type="submit" value="Send">
+            <div class="field">
+                <input class="button button__secondary button__secondary--form" type="submit" value="Send">
             </div>
             
         </form>

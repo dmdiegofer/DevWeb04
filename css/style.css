@@ -274,4 +274,37 @@ img {
 .course__description {
     text-align: justify;
 }
+/* CONTACT_US */
+.contact-us__bg {
+    background-image: url(../img/contacto.jpg);
+    height: 40rem;
+    background: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
 
+}
+.form {
+    background-color: white;
+    margin: -5rem auto 0 auto;
+    width: 90%;
+    padding: 5rem;
+}
+.field {
+    display: flex;
+    margin-bottom: 2rem;
+    gap: 2rem;
+}
+.field__label {
+    flex: 0 0 9rem; /*Suspends the growth factor and sets its size at 9rem  */
+    text-align: right;
+}
+.field__input {
+    flex: 1; /* The label has zero growth factor, so the input with growfactor in 1 take the rest of space */ 
+    border: 2px solid var(--coffe);
+}
+.field__input--textarea {
+    height: 20rem;
+}
+.button__secondary--form {
+    margin: 0;
+}
