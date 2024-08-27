@@ -300,11 +300,14 @@ img {
 }
 .field__input {
     flex: 1; /* The label has zero growth factor, so the input with growfactor in 1 take the rest of space */ 
-    border: 2px solid var(--coffe);
+    border: 2px solid var(--green);
 }
 .field__input--textarea {
     height: 20rem;
 }
 .button__secondary--form {
-    margin: 0;
+    padding: 1rem 4rem;
+    background-color: white;
+    flex: 0.2 0;
+    margin: 2rem 50% 0 50%;
 }
